@@ -6,8 +6,8 @@
 using namespace std;
 main()
 {	
-    int pacote=0,x=0,soma=0;
-    cin>>pacote;
+    int pacote=0,x=0,soma=0;    
+    while(cin>>pacote){
     int ordem[pacote];
     int tempo[pacote];
     for (int i=0;i<pacote;i++){
@@ -26,16 +26,12 @@ main()
                 x=tempo[i];
                 tempo[i]=tempo[i+1];
                 tempo[i+1]=x;
-
             }
         }
     }
-    for (int i=0;i<pacote;i++)
-    {
-        cout<<ordem[i];
+    cout<<soma<<"\n";
+    soma=0;
     }
-    
-    
     return 0;
 }   
  
