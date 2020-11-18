@@ -1,4 +1,3 @@
-
 ## Problemas Resolvidos
 
-- [ ] 1000  - [x] 1000
+  ##### __Meu perfil:__ https://www.urionlinejudge.com.br/judge/pt/profile/480130
