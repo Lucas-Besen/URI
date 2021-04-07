@@ -7,4 +7,4 @@ main(){
     area_do_circulo=pow(raio,2)*pi;
     printf("A=%.4f\n",area_do_circulo);
     return 0; 
-    }
+}
